@@ -1,0 +1,3422 @@
+fileFormatVersion: 2
+guid: ddf78ebd939ad7b419fb536c455cfb2e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GlobalUI_Atlas_Dither_0
+    21300002: GlobalUI_Atlas_Dither_1
+    21300004: GlobalUI_Atlas_Dither_2
+    21300006: GlobalUI_Atlas_Dither_3
+    21300008: GlobalUI_Atlas_Dither_4
+    21300010: GlobalUI_Atlas_Dither_5
+    21300012: GlobalUI_Atlas_Dither_6
+    21300014: GlobalUI_Atlas_Dither_7
+    21300016: GlobalUI_Atlas_Dither_8
+    21300018: GlobalUI_Atlas_Dither_9
+    21300020: GlobalUI_Atlas_Dither_10
+    21300022: GlobalUI_Atlas_Dither_11
+    21300024: GlobalUI_Atlas_Dither_12
+    21300026: GlobalUI_Atlas_Dither_13
+    21300028: GlobalUI_Atlas_Dither_14
+    21300030: GlobalUI_Atlas_Dither_15
+    21300032: GlobalUI_Atlas_Dither_16
+    21300034: GlobalUI_Atlas_Dither_17
+    21300036: GlobalUI_Atlas_Dither_18
+    21300038: GlobalUI_Atlas_Dither_19
+    21300040: GlobalUI_Atlas_Dither_20
+    21300042: GlobalUI_Atlas_Dither_21
+    21300044: GlobalUI_Atlas_Dither_22
+    21300046: GlobalUI_Atlas_Dither_23
+    21300048: GlobalUI_Atlas_Dither_24
+    21300050: GlobalUI_Atlas_Dither_25
+    21300052: GlobalUI_Atlas_Dither_26
+    21300054: GlobalUI_Atlas_Dither_27
+    21300056: GlobalUI_Atlas_Dither_28
+    21300058: GlobalUI_Atlas_Dither_29
+    21300060: GlobalUI_Atlas_Dither_30
+    21300062: GlobalUI_Atlas_Dither_31
+    21300064: GlobalUI_Atlas_Dither_32
+    21300066: GlobalUI_Atlas_Dither_33
+    21300068: GlobalUI_Atlas_Dither_34
+    21300070: GlobalUI_Atlas_Dither_35
+    21300072: GlobalUI_Atlas_Dither_36
+    21300074: GlobalUI_Atlas_Dither_37
+    21300076: GlobalUI_Atlas_Dither_38
+    21300078: GlobalUI_Atlas_Dither_39
+    21300080: GlobalUI_Atlas_Dither_40
+    21300082: GlobalUI_Atlas_Dither_41
+    21300084: GlobalUI_Atlas_Dither_42
+    21300086: GlobalUI_Atlas_Dither_43
+    21300088: GlobalUI_Atlas_Dither_44
+    21300090: GlobalUI_Atlas_Dither_45
+    21300092: GlobalUI_Atlas_Dither_46
+    21300094: GlobalUI_Atlas_Dither_47
+    21300096: GlobalUI_Atlas_Dither_48
+    21300098: GlobalUI_Atlas_Dither_49
+    21300100: GlobalUI_Atlas_Dither_50
+    21300102: GlobalUI_Atlas_Dither_51
+    21300104: GlobalUI_Atlas_Dither_52
+    21300106: GlobalUI_Atlas_Dither_53
+    21300108: GlobalUI_Atlas_Dither_54
+    21300110: GlobalUI_Atlas_Dither_55
+    21300112: GlobalUI_Atlas_Dither_56
+    21300114: GlobalUI_Atlas_Dither_57
+    21300116: GlobalUI_Atlas_Dither_58
+    21300118: GlobalUI_Atlas_Dither_59
+    21300120: GlobalUI_Atlas_Dither_60
+    21300122: GlobalUI_Atlas_Dither_61
+    21300124: GlobalUI_Atlas_Dither_62
+    21300126: GlobalUI_Atlas_Dither_63
+    21300128: GlobalUI_Atlas_Dither_64
+    21300130: GlobalUI_Atlas_Dither_65
+    21300132: GlobalUI_Atlas_Dither_66
+    21300134: GlobalUI_Atlas_Dither_67
+    21300136: GlobalUI_Atlas_Dither_68
+    21300138: GlobalUI_Atlas_Dither_69
+    21300140: GlobalUI_Atlas_Dither_70
+    21300142: GlobalUI_Atlas_Dither_71
+    21300144: GlobalUI_Atlas_Dither_72
+    21300146: GlobalUI_Atlas_Dither_73
+    21300148: GlobalUI_Atlas_Dither_74
+    21300150: GlobalUI_Atlas_Dither_75
+    21300152: GlobalUI_Atlas_Dither_76
+    21300154: GlobalUI_Atlas_Dither_77
+    21300156: GlobalUI_Atlas_Dither_78
+    21300158: GlobalUI_Atlas_Dither_79
+    21300160: GlobalUI_Atlas_Dither_80
+    21300162: GlobalUI_Atlas_Dither_81
+    21300164: GlobalUI_Atlas_Dither_82
+    21300166: GlobalUI_Atlas_Dither_83
+    21300168: GlobalUI_Atlas_Dither_84
+    21300170: GlobalUI_Atlas_Dither_85
+    21300172: GlobalUI_Atlas_Dither_86
+    21300174: GlobalUI_Atlas_Dither_87
+    21300176: GlobalUI_Atlas_Dither_88
+    21300178: GlobalUI_Atlas_Dither_89
+    21300180: GlobalUI_Atlas_Dither_90
+    21300182: GlobalUI_Atlas_Dither_91
+    21300184: GlobalUI_Atlas_Dither_92
+    21300186: GlobalUI_Atlas_Dither_93
+    21300188: GlobalUI_Atlas_Dither_94
+    21300190: GlobalUI_Atlas_Dither_95
+    21300192: GlobalUI_Atlas_Dither_96
+    21300194: GlobalUI_Atlas_Dither_97
+    21300196: GlobalUI_Atlas_Dither_98
+    21300198: GlobalUI_Atlas_Dither_99
+    21300200: GlobalUI_Atlas_Dither_100
+    21300202: GlobalUI_Atlas_Dither_101
+    21300204: GlobalUI_Atlas_Dither_102
+    21300206: GlobalUI_Atlas_Dither_103
+    21300208: GlobalUI_Atlas_Dither_104
+    21300210: GlobalUI_Atlas_Dither_105
+    21300212: GlobalUI_Atlas_Dither_106
+    21300214: GlobalUI_Atlas_Dither_107
+    21300216: GlobalUI_Atlas_Dither_108
+    21300218: GlobalUI_Atlas_Dither_109
+    21300220: GlobalUI_Atlas_Dither_110
+    21300222: GlobalUI_Atlas_Dither_111
+    21300224: GlobalUI_Atlas_Dither_112
+    21300226: GlobalUI_Atlas_Dither_113
+    21300228: GlobalUI_Atlas_Dither_114
+    21300230: GlobalUI_Atlas_Dither_115
+    21300232: GlobalUI_Atlas_Dither_116
+    21300234: GlobalUI_Atlas_Dither_117
+    21300236: GlobalUI_Atlas_Dither_118
+    21300238: GlobalUI_Atlas_Dither_119
+    21300240: GlobalUI_Atlas_Dither_120
+    21300242: GlobalUI_Atlas_Dither_121
+    21300244: GlobalUI_Atlas_Dither_122
+    21300246: GlobalUI_Atlas_Dither_123
+    21300248: GlobalUI_Atlas_Dither_124
+    21300250: GlobalUI_Atlas_Dither_125
+    21300252: GlobalUI_Atlas_Dither_126
+    21300254: GlobalUI_Atlas_Dither_127
+    21300256: GlobalUI_Atlas_Dither_128
+    21300258: GlobalUI_Atlas_Dither_129
+    21300260: GlobalUI_Atlas_Dither_130
+    21300262: GlobalUI_Atlas_Dither_131
+    21300264: GlobalUI_Atlas_Dither_132
+    21300266: GlobalUI_Atlas_Dither_133
+    21300268: GlobalUI_Atlas_Dither_134
+    21300270: GlobalUI_Atlas_Dither_135
+    21300272: GlobalUI_Atlas_Dither_136
+    21300274: GlobalUI_Atlas_Dither_137
+    21300276: GlobalUI_Atlas_Dither_138
+    21300278: GlobalUI_Atlas_Dither_139
+    21300280: GlobalUI_Atlas_Dither_140
+    21300282: GlobalUI_Atlas_Dither_141
+    21300284: GlobalUI_Atlas_Dither_142
+    21300286: GlobalUI_Atlas_Dither_143
+    21300288: GlobalUI_Atlas_Dither_144
+    21300290: GlobalUI_Atlas_Dither_145
+    21300292: GlobalUI_Atlas_Dither_146
+    21300294: GlobalUI_Atlas_Dither_147
+    21300296: GlobalUI_Atlas_Dither_148
+    21300298: GlobalUI_Atlas_Dither_149
+    21300300: GlobalUI_Atlas_Dither_150
+    21300302: GlobalUI_Atlas_Dither_151
+    21300304: GlobalUI_Atlas_Dither_152
+    21300306: GlobalUI_Atlas_Dither_153
+    21300308: GlobalUI_Atlas_Dither_154
+    21300310: GlobalUI_Atlas_Dither_155
+    21300312: GlobalUI_Atlas_Dither_156
+    21300314: GlobalUI_Atlas_Dither_157
+    21300316: GlobalUI_Atlas_Dither_158
+    21300318: GlobalUI_Atlas_Dither_159
+    21300320: GlobalUI_Atlas_Dither_160
+    21300322: GlobalUI_Atlas_Dither_161
+    21300324: GlobalUI_Atlas_Dither_162
+    21300326: GlobalUI_Atlas_Dither_163
+    21300328: GlobalUI_Atlas_Dither_164
+    21300330: GlobalUI_Atlas_Dither_165
+    21300332: GlobalUI_Atlas_Dither_166
+    21300334: GlobalUI_Atlas_Dither_167
+    21300336: GlobalUI_Atlas_Dither_168
+    21300338: GlobalUI_Atlas_Dither_169
+    21300340: GlobalUI_Atlas_Dither_170
+    21300342: GlobalUI_Atlas_Dither_171
+    21300344: GlobalUI_Atlas_Dither_172
+    21300346: GlobalUI_Atlas_Dither_173
+    21300348: GlobalUI_Atlas_Dither_174
+    21300350: GlobalUI_Atlas_Dither_175
+    21300352: GlobalUI_Atlas_Dither_176
+    21300354: GlobalUI_Atlas_Dither_177
+    21300356: GlobalUI_Atlas_Dither_178
+    21300358: GlobalUI_Atlas_Dither_179
+    21300360: GlobalUI_Atlas_Dither_180
+    21300362: GlobalUI_Atlas_Dither_181
+    21300364: GlobalUI_Atlas_Dither_182
+    21300366: GlobalUI_Atlas_Dither_183
+    21300368: GlobalUI_Atlas_Dither_184
+    21300370: GlobalUI_Atlas_Dither_185
+    21300372: GlobalUI_Atlas_Dither_186
+    21300374: GlobalUI_Atlas_Dither_187
+    21300376: GlobalUI_Atlas_Dither_188
+    21300378: GlobalUI_Atlas_Dither_189
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1972
+        width: 92
+        height: 59
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53511cee1e507d042a1cbb0b45283ccc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1920
+        width: 93
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f2490a6345e6245b705d98d9bd8bcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_2
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1962
+        width: 26
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd681b00a5e1f404289f7df41aff1d10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_3
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1972
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f0dd4e98298dc4d91a79ae1d982511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_4
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 1963
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a949aae250b8242a49a0951a2e4556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_5
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1951
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7db3aad8ba41164f9a739b04c6366ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_6
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1972
+        width: 30
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf6e972e847adf4dabe2492f76217c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_7
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 1942
+        width: 29
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2871c6f210dec544a7d50c3e2bdc219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_8
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1908
+        width: 27
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6d23c8a4694804b9e9861a5d80e901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1882
+        width: 96
+        height: 90
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babd2460edf4ce546ad49f47ca300b15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1824
+        width: 90
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053b3645b92bf394a9d18d433e8b4e95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_11
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1833
+        width: 98
+        height: 52
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04f1249283e4c449be156a24a57a405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_12
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1863
+        width: 41
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62fe522ed1de494abefa52ea2e8b20f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_13
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1936
+        width: 27
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc307d9028fd4a489b130adced27064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_14
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1924
+        width: 30
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8560ed0c0953cae45ade9c507c27efd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_15
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1935
+        width: 28
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c940af5172017be438257078b73a0d80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_16
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1926
+        width: 22
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e840a1148274594dba433ee887a1179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_17
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1913
+        width: 28
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bbe78644013cf438d9a3d817657faf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1869
+        width: 172
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c0e7159024d064ab01b9c5e554f8d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_19
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1791
+        width: 142
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c422c619939d44ea42b54c06d2ace7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_20
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 1864
+        width: 50
+        height: 39
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5350aa53d224c7499438abaee23b187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_21
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1886
+        width: 67
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b7d63fc5c4db9488932107939f172d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_22
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1887
+        width: 29
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12581cfce805323429e3e7de5a141cde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_23
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1792
+        width: 75
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0300de4464d834e81a54fb76a245aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_24
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1869
+        width: 26
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f698086aeb569408c35988156fb52f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_25
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1869
+        width: 28
+        height: 38
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffab3d5b4f7e76b4ca60e03c83fdea9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1776
+        width: 97
+        height: 105
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6110207cd1bc36c4d942237ccaec423c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_27
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1776
+        width: 93
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6978c88bf5acf8746bdcf25577fdc291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_28
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1840
+        width: 273
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7628c82ce18a9f4f9245e788970eccd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_29
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1720
+        width: 80
+        height: 38
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9203d20ca8bc7704f8ed2cec0c6d5bf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_30
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1843
+        width: 38
+        height: 39
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3507fdb08f584f54eb756fe5d32db221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_31
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1863
+        width: 13
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0aa249cc6e7a9e47959f902464f8bee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_32
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1832
+        width: 30
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1581e5a266b1b4fa400a8d741612d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_33
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1831
+        width: 28
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9595518ab16734447b27bb87c1a0f814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_34
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 1844
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb5248db3685b44eb44528f6081094d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_35
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1813
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f567d5d704303c143a19269f46fc6a42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_36
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1842
+        width: 13
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923e4aa9197a9604da85abb8f984f595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_37
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 1652
+        width: 82
+        height: 52
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807e1131bd25b7e4985df8fdb137ecf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_38
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1704
+        width: 97
+        height: 92
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182f512d3babe39448e9124c8de69887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1824
+        width: 9
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee32f2bfe5600664293dfa2f4dbfd3a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_40
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1735
+        width: 93
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c7069f6f8020d4e82ea5a4e57341d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_41
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1652
+        width: 141
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42e01a0bcc3eeb44a935995efd25bd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_42
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1684
+        width: 24
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3c1b1a31dd83f4e9d901644f902563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_43
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1787
+        width: 61
+        height: 41
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516a3983676c3f54fac15730d77b01ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_44
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1797
+        width: 60
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f522a0a9ac9614d8ea2580e87b089b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_45
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 1814
+        width: 67
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcd0cc75bfb90c40a25e87db9a043b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_46
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1719
+        width: 106
+        height: 103
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9e32a9e7a0cb14b82aed922e2c4853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_47
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1744
+        width: 92
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32296f246861da449971d50791358930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_48
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 1738
+        width: 92
+        height: 54
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7782930352364a04d90f8b341fb3bb31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1656
+        width: 104
+        height: 118
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f21474f8822cf24d91af2c41397ba96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_50
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1735
+        width: 69
+        height: 38
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010c05ad4b6d1ad4585a58cd0bbe2e65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_51
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1718
+        width: 159
+        height: 58
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc37a34978296b449f1c4582512a9a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_52
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1709
+        width: 122
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfad6bd3e01b5642a06e1920ea9b81a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_53
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1759
+        width: 92
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5272643e7ca67d54a98c479a9fd4da95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_54
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1706
+        width: 32
+        height: 59
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bc38ad8acba67439cd6b81a982719e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_55
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1651
+        width: 143
+        height: 83
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c362d0d6d6128624aa1d2359d77f89cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_56
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1709
+        width: 122
+        height: 40
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa574fc1628189e43a89b333f727d464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_57
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1628
+        width: 95
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffb9ede8da77df46957f41b02783baf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_58
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1718
+        width: 22
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4123ed9cb32876b44a5228cbcc065889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_59
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1690
+        width: 82
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086a24a9348f0654c933cc2f4eb4b046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_60
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1531
+        width: 337
+        height: 116
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a357582f9bc4849804bd85e5e5a8f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_61
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1696
+        width: 24
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f97868531319f499d353826f315617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_62
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1655
+        width: 62
+        height: 63
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b493a8d792cf9d46a7f83a79ad56604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_63
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1655
+        width: 12
+        height: 38
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e4f4bc91688904b9fca1539a981e8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_64
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1609
+        width: 133
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e717db57ca0c6449f9098b183b45eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_65
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1631
+        width: 95
+        height: 57
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78edb7eb7c72b74a9c1fa483b04bd45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1504
+        width: 120
+        height: 150
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4d5c7d27286a148a92ffd1f643962c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_67
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1446
+        width: 206
+        height: 83
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b965cd97b8639cf44a66ff314cf9d45a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_68
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1517
+        width: 111
+        height: 70
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2499035476b80c40a37164d329ac783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_69
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1588
+        width: 56
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda58bc77e01de54c96a9333f267c11d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_70
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1583
+        width: 68
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d0db6e32b333d4588a7c3f02e475c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_71
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1548
+        width: 82
+        height: 82
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59a382de0649c647a98bf810a6eb4d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_72
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1532
+        width: 69
+        height: 73
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb879d17251787c48b8dd4b0d5ab3be7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_73
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1530
+        width: 198
+        height: 78
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959ff332043170946bd9957471948018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_74
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1543
+        width: 141
+        height: 70
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f8886f6a3ab174bb8f1b113cb902c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_75
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1578
+        width: 144
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614566a1a958c1341934b2ca39145afb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_76
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1517
+        width: 68
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b28dbe593751ae4fb9d3e8ed69e665a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_77
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1544
+        width: 111
+        height: 70
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b6cfebdc237a344bda8d76b762b83d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_78
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1544
+        width: 55
+        height: 55
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a333fc90ccc29ab41bfe1d896ddaa83f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_79
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1451
+        width: 132
+        height: 126
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff712b938c86924b806432501c68d67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_80
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1543
+        width: 65
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb712e9b3e88fb43a95d0ac026edb18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_81
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1494
+        width: 159
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da54544a4d37aac4aacd85a359be4709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_82
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1461
+        width: 90
+        height: 90
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc5f8ee2acf88f4ebf26d6633ea8496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_83
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1461
+        width: 90
+        height: 86
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea47196eda3becd42b3be1a884a4a166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_84
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1367
+        width: 12
+        height: 38
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402be08b630e9cd488a479938bcd6194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_85
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1420
+        width: 163
+        height: 110
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e528d37efa48e394e9cfb2faf722a9b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_86
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1420
+        width: 163
+        height: 110
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a33a4a3c3be3745a91842ff1c8e387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_87
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1463
+        width: 19
+        height: 70
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a4ded34f4f0214b974e75090889dec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_88
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1419
+        width: 76
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c085d50516f29045bb0644b98b221f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_89
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1445
+        width: 19
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ca2d485188ca141a10151896b7a83b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_90
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1403
+        width: 96
+        height: 90
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6c40d80c9a3b54e8e33e3cf85b300d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_91
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1367
+        width: 120
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636d3f3e8a80500478732d62c31a7dd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_92
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1406
+        width: 8
+        height: 11
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e20da3d551106048b206a0a60f3823b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_93
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1348
+        width: 272
+        height: 70
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baee26aa915ef454b888ec9010e0d623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_94
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1318
+        width: 143
+        height: 125
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95680b045a68ce43b6e5d99f13fa63c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_95
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1336
+        width: 137
+        height: 82
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afee6bbfd4b8ed4cb6c80286d40f309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_96
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1336
+        width: 166
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2af390f02b04d24fac97b2477b6e440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_97
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1328
+        width: 275
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d988e15a710984c44a9564bdc128d119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_98
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1365
+        width: 39
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b63e15eae22a10498c78b681de4621f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_99
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1303
+        width: 640
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17695e016ae13144ea6d0e1dd3bf137c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_100
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1293
+        width: 66
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ad380098d19cc4e947b34b1851382e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_101
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1024
+        width: 169
+        height: 170
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d538f080c4c3a44395759b467b1d5e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_102
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 1307
+        width: 36
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca320ebccf4f3db4a805e181d545daab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_103
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1198
+        width: 260
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2cd54dd6f066b4f9b57ccfa55d4ac4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1057
+        width: 640
+        height: 57
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81decf931492ae542ba5ec56d53da2b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_105
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1044
+        width: 487
+        height: 67
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc31ae4a63436241b909ed785741a83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_106
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1066
+        width: 104
+        height: 123
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1218345281d96449af1481ee6b601e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_107
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1025
+        width: 146
+        height: 140
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1478bb8302921234097d1a2cc632fb9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 997
+        width: 640
+        height: 59
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07e41f2e1a77e046b333a0295dfca59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_109
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 973
+        width: 494
+        height: 70
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d302d19f637334a8d9b58f5f2a4a8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_110
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 963
+        width: 571
+        height: 102
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cd419acdd5be24195a1716cceb635e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_111
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 961
+        width: 114
+        height: 59
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56d6a6c21e09eb4abe5e8e0e9135184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_112
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 495
+        width: 150
+        height: 150
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b290adfa8ca5045a236f86dd2e7d54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 867
+        width: 576
+        height: 129
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e5a627c3864184895524305a507214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_114
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 973
+        width: 50
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e9589f4d061e843898c4bfb24ccf06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_115
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 991
+        width: 8
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3678c055109eeaf498c2ad1463bc2f91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_116
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 870
+        width: 570
+        height: 102
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d180bf487d502b945a9183266fdf4c84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_117
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 870
+        width: 123
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bf90e1c87958049abb21e4cfed2a8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_118
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 856
+        width: 571
+        height: 104
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dd80a161ca49f4a834e90ac7b14aa8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 746
+        width: 640
+        height: 120
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3fd179817c53c41bcbd9e4251d1d1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 623
+        width: 640
+        height: 122
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494742bed27fab945a006140de8c93d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 437
+        width: 504
+        height: 171
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deaa99336e0f2e4990b007d41550023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 640
+        height: 145
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f29152be1607240b8690d94a38455c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_123
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 328
+        width: 316
+        height: 267
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7700b1a28775c274fa89302502efbf6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_124
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 328
+        width: 340
+        height: 166
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b729d32e90107d41ac38f5fe130bb05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_125
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 351
+        width: 126
+        height: 124
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6f338cae81ee8449eb99d4f5b3fcad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_126
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 0
+        width: 605
+        height: 193
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fe3c03bf78af94cb5dd7b57e8d6ad2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_127
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 171
+        width: 640
+        height: 156
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320c3a81fc89af24fbadcd49d32a5eeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_128
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 170
+        width: 61
+        height: 155
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15477c50ea44c484f81bde3beec789f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_129
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 170
+        width: 123
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85dbfd564074dd4e8eeecc6c8c67910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_130
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 194
+        width: 58
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e72bd30b42391478a4ce6403bbff5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_131
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 0
+        width: 640
+        height: 170
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60fd5fea65f0c84b8bb2e8b8910ac33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_132
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 0
+        width: 169
+        height: 169
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1199b4d3d5db146863a32dc4e29b94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_133
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1
+        width: 26
+        height: 54
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2335f4d527c8df145be82ed12891d473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_134
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1940
+        width: 32
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06494c1a4af4bb247a76774860910c67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_135
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1912
+        width: 30
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fc369c1a8c589438ed7b185ddb1188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_136
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1930
+        width: 28
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb638697d94b40a4681b9f66be076200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_137
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1851
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e8b7e6b58c5a64587ba319f39df59b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_138
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1881
+        width: 36
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49adf3fb3aed0b147be1c9d63389b189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_139
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1830
+        width: 49
+        height: 41
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf9e530a632a074690fcdf58b9b9fd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_140
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1820
+        width: 41
+        height: 42
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc24f3b65c9e2146a40ed3b311dafbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_141
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1739
+        width: 96
+        height: 90
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffef65be265bbd4eb5faeca0c2b85c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_142
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1649
+        width: 172
+        height: 136
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa2ff39e25ca6d4ca3ff928bdb927b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_143
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1698
+        width: 98
+        height: 46
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eda645a5ade22d44a4597be401780ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_144
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1725
+        width: 92
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494e0ce940075054b8ddb8607680c94d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_145
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1531
+        width: 119
+        height: 121
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e759d98dd52942e4b91a99fbb810e9bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_146
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1507
+        width: 141
+        height: 70
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85eba4ab16f76d141a80d8f9058a11ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_147
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1368
+        width: 134
+        height: 135
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff185df45292103419ab9b624eeaedfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_148
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 855
+        width: 170
+        height: 169
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de80d0310ab4db741a9d61dbb9b814e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_149
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 437
+        width: 100
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4802db8422d1e4da42d0fadcd20f7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_150
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 267
+        width: 545
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58b2d67be3d6bf46a072bdb16b0a5bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_151
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1616
+        width: 157
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 0, z: 17, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc3d02ad48673f409442baddcf14170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_152
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 1866
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384f1f67f3a169b41bacb26645104efe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_153
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1195
+        width: 160
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bcdcb7b57a7f74782ba491a2ff3b88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlobalUI_Atlas_Dither_154
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1317
+        width: 274
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50b2ea5aff5d514b84849fb3c04c760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f6c0a2669d124ae4998d2b0648a10d0e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
