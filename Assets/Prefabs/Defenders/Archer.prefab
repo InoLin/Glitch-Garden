@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09c63931fd363b245900a37ea23d11d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 1375763844768851525, guid: 5ae280f7cd402e744983bdcb910ceddc,
+  projectile: {fileID: 161406579046967977, guid: cd9539d220d1f5343a276bce9805b301,
     type: 3}
   gun: {fileID: 1229965354091010262}
 --- !u!114 &3929067573159593972
@@ -179,7 +179,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
-  deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   hitVFX: {fileID: 5483959066903447245, guid: b0bc9ea880095a345a1ad24d131b40be, type: 3}
   levelController: {fileID: 0}
 --- !u!1 &4627521611112938807
