@@ -7,7 +7,7 @@ public class AttackerSpawnerController : MonoBehaviour
     public List<GameObject> spawnerList;
     public float firstStateTime = 0.3f;
     public float SecondStateTime = 0.6f;
-    private bool triggerSecondState = false;
+    //private bool triggerSecondState = false;
 
     void Start()
     {
@@ -47,7 +47,7 @@ public class AttackerSpawnerController : MonoBehaviour
         {
             ActiveState();
             ActiveState();
-            triggerSecondState = true;
+            //triggerSecondState = true;
         }
     }
 }

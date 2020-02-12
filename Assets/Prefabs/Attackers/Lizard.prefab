@@ -118,8 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c3dc2f84ce9d8e4eb1559e39d53026e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 8
-  deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
+  health: 10
   hitVFX: {fileID: 5483959066903447245, guid: b0bc9ea880095a345a1ad24d131b40be, type: 3}
   levelController: {fileID: 0}
 --- !u!114 &7719721448305400209

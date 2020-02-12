@@ -43,7 +43,7 @@ public class LevelController : MonoBehaviour
     {
         levelTimerFinished = true;
         StopSpawners();
-        Debug.Log("關卡結束");
+        //Debug.Log("關卡結束");
     }
 
     //B.停止生成攻擊者的方法

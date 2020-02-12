@@ -11,7 +11,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] float health = 100f; //A.血量
     //B.要去VFX的prefab調整Renderer-->sorting layer，不然可能會看不見
-    public GameObject deathVFX; //B.存放特效
+    //public GameObject deathVFX; //B.存放特效
     public GameObject hitVFX;
     [SerializeField] LevelController levelController; //D.存放攻擊者計數器
 
@@ -26,7 +26,7 @@ public class Health : MonoBehaviour
         health -= damage;
         if(health <= 0)
         {
-            TriggerDeathVFX(); //B.執行特效方法
+            TriggerHitVFX();
             Destroy(gameObject);
         }
         else
@@ -35,6 +35,7 @@ public class Health : MonoBehaviour
         }
     }
 
+    /*
     //B.生成特效方法
     private void TriggerDeathVFX()
     {
@@ -43,6 +44,7 @@ public class Health : MonoBehaviour
         GameObject deathVFXObject = Instantiate(deathVFX, transform.position, transform.rotation);
         Destroy(deathVFXObject, 1f); //C.一秒後銷毀VFX物件
     }
+    */
 
     private void TriggerHitVFX()
     {

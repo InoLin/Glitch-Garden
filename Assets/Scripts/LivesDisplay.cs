@@ -21,7 +21,7 @@ public class LivesDisplay : MonoBehaviour
         lives = baseLives - PlayerPrefsController.GetDifficulty(); //D.
         livesText = GetComponent<Text>();
         UpdateLives();
-        Debug.Log("Difficulty setting currently is " + PlayerPrefsController.GetDifficulty()); //D.
+        //Debug.Log("Difficulty setting currently is " + PlayerPrefsController.GetDifficulty()); //D.
     }
 
     //A.更新生命次數文字的方法

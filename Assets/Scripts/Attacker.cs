@@ -9,12 +9,17 @@ using UnityEngine;
 //E.讓攻擊者在生成時自動增加攻擊者數量
 //F.讓攻擊者在摧毀時自動減少攻擊者數量
 //G.
+//H.播放受擊動畫
+/*
+ * 特別記事:
+ * H.在做受擊動畫時，原本希望用動畫去做擊退的位移效果，
+ * 但執行遊戲時蜥蜴的座標會跑掉，最後改由在Mover做效果，詳情看Mover的D。
+ */
 
 public class Attacker : MonoBehaviour
 {
     [Range(0f, 5f)] //A.讓變數在inspector有拉霸
     [SerializeField] float currentSpeed = 0;
-    //[SerializeField] float walkSpeed = 1f; //A.走路速度
     private Animator m_animator; //B.
     private GameObject currentTarget;
 
@@ -48,14 +53,7 @@ public class Attacker : MonoBehaviour
         UpdateAnimationState(); //D.執行更新動畫的方法
     }
 
-    //D.防禦者死掉後，攻擊者回到走路動畫
-    private void UpdateAnimationState()
-    {
-        if (!currentTarget) //D.如果沒有當前目標
-        {
-            m_animator.SetBool("isAttacking", false); //D.
-        }
-    }
+    
 
     public void SetMovementSpeed(float speed)
     {
@@ -67,6 +65,32 @@ public class Attacker : MonoBehaviour
     {
         m_animator.SetBool("isAttacking", true);
         currentTarget = target;
+    }
+
+    //C.讓攻擊者能攻擊防禦者並執行扣血工作
+    public void StrikeCurrentTarget(float damage)
+    {
+        if (!currentTarget) { return; } //C.如果沒目標，就繼續
+        Health health = currentTarget.GetComponent<Health>(); //C.如果有目標，就尋找看有無Health
+        if (health) //C.如果有health
+        {
+            health.DealDamage(damage); //C.執行扣血
+        }
+    }
+
+    //D.防禦者死掉後，攻擊者回到走路動畫
+    private void UpdateAnimationState()
+    {
+        if (!currentTarget) //D.如果沒有當前目標
+        {
+            m_animator.SetBool("isAttacking", false); //D.
+        }
+    }
+
+    //H.播放受擊動畫的方法
+    public void BeingHit()
+    {
+        m_animator.SetTrigger("isBeingHit");
     }
 
     /*
@@ -90,14 +114,5 @@ public class Attacker : MonoBehaviour
     }
     */
 
-    //C.讓攻擊者能攻擊防禦者並執行扣血工作
-    public void StrikeCurrentTarget(float damage)
-    {
-        if (!currentTarget) { return; } //C.如果沒目標，就繼續
-        Health health = currentTarget.GetComponent<Health>(); //C.如果有目標，就尋找看有無Health
-        if (health) //C.如果有health
-        {
-            health.DealDamage(damage); //C.執行扣血
-        }
-    }
+
 }
