@@ -12,15 +12,16 @@ using UnityEngine;
 //G.判斷是否有足夠星數可消費，如有則可生成防禦者
 //H.如果要放置防禦者的方格內已有防禦者則不能生成新的防禦者
 //I.整理防禦者讓防禦者可生成在parent空物件底下
+//J.生成防禦者出生特效，音效直接綁在Prefab裡面
 
 public class DefenderSpawner : MonoBehaviour
 {
     Defender defender; //A.存放防禦者 //E.將GameObject型態改成Defender，並去除SerializeField
     GameObject defenderParent; //I.
     const string DEFENDER_RARENT_NAME = "Defenders"; //I.應該是避免打錯用的
-
     private Vector2 theMostLeftDownPos = new Vector2(-5.92f, -2.96f);
     private float perUnitLength = 1.48f;
+    public GameObject bornVFX;
 
     private void Start()
     {
@@ -103,6 +104,8 @@ public class DefenderSpawner : MonoBehaviour
     {
         //E.將GameObject型態改成Defender
         Defender newDefender = Instantiate(defender, roundedPos, Quaternion.identity) as Defender;
+        //J.生成防禦者出生特效
+        Instantiate(bornVFX, roundedPos, Quaternion.identity);
         //I.把新生防禦者變成defenderParent的子物件
         newDefender.transform.parent = defenderParent.transform;
     }
@@ -138,4 +141,6 @@ public class DefenderSpawner : MonoBehaviour
             defenderParent = new GameObject(DEFENDER_RARENT_NAME); //I.用生的
         }
     }
+
+    
 }

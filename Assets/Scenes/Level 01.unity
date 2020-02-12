@@ -1526,6 +1526,26 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 572218518480413965, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.9000244
+      objectReference: {fileID: 0}
+    - target: {fileID: 572218517598237528, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.9000244
+      objectReference: {fileID: 0}
+    - target: {fileID: 572218516764612298, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.9000244
+      objectReference: {fileID: 0}
+    - target: {fileID: 572218517273212408, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.9000244
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5426690f0d601484fa19459af68a20e5, type: 3}
 --- !u!1001 &1459107383103855079
@@ -1834,6 +1854,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3382759445677585947, guid: 87db99a9633636a41be48775535d48a9,
+        type: 3}
+      propertyPath: bornVFX
+      value: 
+      objectReference: {fileID: 7398674972678874662, guid: fa0e428ca8c9a3c43a523e0da34f0af0,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 3382759445677585948, guid: 87db99a9633636a41be48775535d48a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 87db99a9633636a41be48775535d48a9, type: 3}
