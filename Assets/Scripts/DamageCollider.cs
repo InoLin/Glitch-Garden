@@ -10,7 +10,10 @@ public class DamageCollider : MonoBehaviour
     //A.碰到碰撞體後，執行扣生命次數
     private void OnTriggerEnter2D(Collider2D otherCollider)
     {
-        FindObjectOfType<LivesDisplay>().TakeLife();
+        if (otherCollider.gameObject.GetComponent<Attacker>())
+        {
+            FindObjectOfType<LivesDisplay>().TakeLife();
+        }
         Destroy(otherCollider.gameObject); //B.
     }
 }

@@ -10,6 +10,7 @@ using UnityEngine;
 //F.讓攻擊者在摧毀時自動減少攻擊者數量
 //G.
 //H.播放受擊動畫
+//J.消滅自身的方法
 /*
  * 特別記事:
  * H.在做受擊動畫時，原本希望用動畫去做擊退的位移效果，
@@ -91,6 +92,18 @@ public class Attacker : MonoBehaviour
     public void BeingHit()
     {
         m_animator.SetTrigger("isBeingHit");
+    }
+
+    //I.播放死亡動畫的方法
+    public void IsDead()
+    {
+        m_animator.SetTrigger("isDead");
+    }
+
+    //J.消滅自身的方法
+    public void DestroyItself()
+    {
+        Destroy(gameObject);
     }
 
     /*

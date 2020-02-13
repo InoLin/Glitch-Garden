@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//A.血量及扣血系統
+//A.血量、扣血系統、播放死亡動畫
 //B.敵人死後生成死掉特效
 //C.一秒後銷毀VFX物件
 //D.當攻擊者死亡後減去攻擊者數量
@@ -27,7 +27,7 @@ public class Health : MonoBehaviour
         if(health <= 0)
         {
             TriggerHitVFX();
-            Destroy(gameObject);
+            GetComponent<Attacker>().IsDead(); //A.
         }
         else
         {
