@@ -9,8 +9,9 @@ using UnityEngine;
 //E.讓攻擊者在生成時自動增加攻擊者數量
 //F.讓攻擊者在摧毀時自動減少攻擊者數量
 //G.
-//H.播放受擊動畫
+
 //J.消滅自身的方法
+//K.消滅自身碰撞體
 /*
  * 特別記事:
  * H.在做受擊動畫時，原本希望用動畫去做擊退的位移效果，
@@ -21,7 +22,7 @@ public class Attacker : MonoBehaviour
 {
     [Range(0f, 5f)] //A.讓變數在inspector有拉霸
     [SerializeField] float currentSpeed = 0;
-    private Animator m_animator; //B.
+    private Animator animator; //B.
     private GameObject currentTarget;
 
     //E.
@@ -45,7 +46,7 @@ public class Attacker : MonoBehaviour
 
     void Start()
     {
-        m_animator = GetComponent<Animator>(); //B.
+        animator = GetComponent<Animator>(); //B.
     }
 
     void Update()
@@ -64,7 +65,7 @@ public class Attacker : MonoBehaviour
     //B.播放攻擊動畫的方法
     public void Attack(GameObject target)
     {
-        m_animator.SetBool("isAttacking", true);
+        animator.SetBool("isAttacking", true);
         currentTarget = target;
     }
 
@@ -84,27 +85,36 @@ public class Attacker : MonoBehaviour
     {
         if (!currentTarget) //D.如果沒有當前目標
         {
-            m_animator.SetBool("isAttacking", false); //D.
+            animator.SetBool("isAttacking", false); //D.
         }
     }
 
-    //H.播放受擊動畫的方法
-    public void BeingHit()
-    {
-        m_animator.SetTrigger("isBeingHit");
-    }
-
-    //I.播放死亡動畫的方法
-    public void IsDead()
-    {
-        m_animator.SetTrigger("isDead");
-    }
+    
 
     //J.消滅自身的方法
     public void DestroyItself()
     {
         Destroy(gameObject);
     }
+
+    //K.消滅自身碰撞體
+    public void DestroySelfCollider()
+    {
+        Destroy(gameObject.GetComponent<Collider2D>());
+    }
+
+    //H.播放受擊動畫的方法
+    public void BeingHit()
+    {
+        animator.SetTrigger("isBeingHit");
+    }
+
+    //I.播放死亡動畫的方法
+    public void IsDead()
+    {
+        animator.SetTrigger("isDead");
+    }
+
 
     /*
     //B.攻擊者碰到防禦者會停止移動並撥放攻擊動作

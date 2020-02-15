@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 8037094458055075572}
   - component: {fileID: 5195607795983430166}
   - component: {fileID: 8256252189873924077}
-  - component: {fileID: 5820408890983211277}
   - component: {fileID: 526163574996496442}
+  - component: {fileID: 1866633442097436715}
   m_Layer: 0
   m_Name: Monster01
   m_TagString: Attacker
@@ -130,20 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  hitVFX: {fileID: 5483959066903447245, guid: b0bc9ea880095a345a1ad24d131b40be, type: 3}
   levelController: {fileID: 0}
---- !u!114 &5820408890983211277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5195607795983433194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa5a39cf2ee0db945a72756cb909fd9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &526163574996496442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -192,6 +179,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1866633442097436715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5195607795983433194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5a39cf2ee0db945a72756cb909fd9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5527603400540785722
 GameObject:
   m_ObjectHideFlags: 0

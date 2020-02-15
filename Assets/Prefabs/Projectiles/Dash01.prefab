@@ -115,6 +115,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireSpeed: 8
   damage: 50
+  pushForce: 0
+  hitVFX: {fileID: 5483959066903447245, guid: b0bc9ea880095a345a1ad24d131b40be, type: 3}
 --- !u!1 &8649738936653452049
 GameObject:
   m_ObjectHideFlags: 0

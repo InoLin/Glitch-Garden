@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //A.血量、扣血系統、播放死亡動畫
-//B.敵人死後生成死掉特效
 //C.一秒後銷毀VFX物件
 //D.當攻擊者死亡後減去攻擊者數量
+//H.播放受擊動畫
+//I.播放死亡動畫的方法
 
 public class Health : MonoBehaviour
 {
     [SerializeField] float health = 100f; //A.血量
     //B.要去VFX的prefab調整Renderer-->sorting layer，不然可能會看不見
-    //public GameObject deathVFX; //B.存放特效
-    public GameObject hitVFX;
     [SerializeField] LevelController levelController; //D.存放攻擊者計數器
+    private Animator animator; //B.
 
     void Start()
     {
+        animator = GetComponent<Animator>(); //B.
         levelController = FindObjectOfType<LevelController>(); //D.尋找場上有LevelController的物件
     }
 
@@ -24,33 +25,27 @@ public class Health : MonoBehaviour
     public void DealDamage(float damage)
     {
         health -= damage;
-        if(health <= 0)
+        if (GetComponent<Attacker>())
         {
-            TriggerHitVFX();
-            GetComponent<Attacker>().IsDead(); //A.
+            GetComponent<Attacker>().BeingHit();
         }
-        else
+        else if (GetComponent<Defender>())
         {
-            TriggerHitVFX();
+            GetComponent<Defender>().BeingHit();
+        }
+
+        if (health <= 0)
+        {
+            if (GetComponent<Attacker>())
+            {
+                GetComponent<Attacker>().IsDead();
+            }
+            else if (GetComponent<Defender>())
+            {
+                GetComponent<Defender>().IsDead();
+            }
         }
     }
 
-    /*
-    //B.生成特效方法
-    private void TriggerDeathVFX()
-    {
-        if(!deathVFX) { return; } //B.如果沒特效就繼續執行(不管的意思)
-        //C.這個deathVFXObject是為了能夠銷緩才宣告的
-        GameObject deathVFXObject = Instantiate(deathVFX, transform.position, transform.rotation);
-        Destroy(deathVFXObject, 1f); //C.一秒後銷毀VFX物件
-    }
-    */
-
-    private void TriggerHitVFX()
-    {
-        if (!hitVFX) { return; }
-        GameObject hitVFXObject =  Instantiate(hitVFX, transform.position, Quaternion.identity);
-        Destroy(hitVFXObject, 0.33f);
-    }
-
+    
 }

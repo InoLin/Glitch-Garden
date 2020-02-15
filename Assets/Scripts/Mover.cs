@@ -6,6 +6,7 @@ using UnityEngine;
 //B.執行扣血系統
 //C.打到敵人後摧毀黃瓜
 //D.飛行道具打到攻擊者產生擊退效果
+//E.飛行道具打中攻擊者產生特效
 
 public class Mover : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Mover : MonoBehaviour
     [Range(0f, 100f)]
     [SerializeField] float pushForce = 0; //D.推的力道
     private int nerfPushForce = 100; //D.削弱推的力道，不削弱推力太強
+    public GameObject hitVFX;
 
 
     void Start()
@@ -40,6 +42,14 @@ public class Mover : MonoBehaviour
             //D.實際執行擊退功能
             attacker.transform.Translate(Vector2.right * pushForce / nerfPushForce);
             Destroy(gameObject); //C.摧毀黃瓜物件
+            TriggerHitVFX(otherCollider); //E.
         }
+    }
+
+    //E.
+    private void TriggerHitVFX(Collider2D otherCollider)
+    {
+        if (!hitVFX) { return; }
+        GameObject hitVFXObject = Instantiate(hitVFX, otherCollider.gameObject.transform.position, otherCollider.gameObject.transform.rotation);
     }
 }

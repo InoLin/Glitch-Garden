@@ -23,4 +23,6 @@ public class Monster01 : MonoBehaviour
             GetComponent<Attacker>().BeingHit();
         }
     }
+
+
 }
