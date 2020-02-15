@@ -52,7 +52,8 @@ public class Attacker : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector2.left * currentSpeed * Time.deltaTime); //A.攻擊者位移
-        UpdateAnimationState(); //D.執行更新動畫的方法
+        //UpdateAnimationState(); //D.執行更新動畫的方法
+        BackToWalkState();
     }
 
     
@@ -81,27 +82,18 @@ public class Attacker : MonoBehaviour
     }
 
     //D.防禦者死掉後，攻擊者回到走路動畫
-    private void UpdateAnimationState()
+    private void BackToWalkState()
     {
-        if (!currentTarget) //D.如果沒有當前目標
+        if (animator.GetBool("isAttacking") == false) { return; }
+        if (currentTarget.GetComponent<Health>().health <= 0)
         {
             animator.SetBool("isAttacking", false); //D.
         }
     }
 
-    
 
-    //J.消滅自身的方法
-    public void DestroyItself()
-    {
-        Destroy(gameObject);
-    }
 
-    //K.消滅自身碰撞體
-    public void DestroySelfCollider()
-    {
-        Destroy(gameObject.GetComponent<Collider2D>());
-    }
+
 
     //H.播放受擊動畫的方法
     public void BeingHit()

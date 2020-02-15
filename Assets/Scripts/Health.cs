@@ -10,7 +10,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] float health = 100f; //A.血量
+    public float health = 100f; //A.血量
     //B.要去VFX的prefab調整Renderer-->sorting layer，不然可能會看不見
     [SerializeField] LevelController levelController; //D.存放攻擊者計數器
     private Animator animator; //B.
@@ -47,5 +47,15 @@ public class Health : MonoBehaviour
         }
     }
 
-    
+    //J.消滅自身的方法
+    public void DestroyItself()
+    {
+        Destroy(gameObject);
+    }
+
+    //K.消滅自身碰撞體
+    public void DestroySelfCollider()
+    {
+        Destroy(gameObject.GetComponent<Collider2D>());
+    }
 }
