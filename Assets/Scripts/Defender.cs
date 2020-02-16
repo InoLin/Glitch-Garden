@@ -37,17 +37,7 @@ public class Defender : MonoBehaviour
     //C.執行判斷通道上是否有敵人
     private void Update()
     {
-        //B.如果攻擊者在通道上
-        if (IsAttackerInLane())
-        {
-            //D.播攻擊動畫，IsAttack是在動畫機裡設置的變數，名稱需完全一樣
-            animator.SetBool("isAttacking", true);
-        }
-        else
-        {
-            //D.播等待動畫
-            animator.SetBool("isAttacking", false);
-        }
+        
     }
 
     //B.設置哪個攻擊者spawner是哪個防禦者的目標的方法
@@ -72,7 +62,7 @@ public class Defender : MonoBehaviour
     }
 
     //C.判斷通道上是否有敵人
-    private bool IsAttackerInLane()
+    public bool IsAttackerInLane()
     {
         if (myLaneSpawner.transform.childCount <= 0)
         {

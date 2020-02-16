@@ -21,29 +21,17 @@ public class Health : MonoBehaviour
         levelController = FindObjectOfType<LevelController>(); //D.尋找場上有LevelController的物件
     }
 
-    //A.扣血系統
+    //A.扣血系統+判斷是否死亡
     public void DealDamage(float damage)
     {
         health -= damage;
-        if (GetComponent<Attacker>())
-        {
-            GetComponent<Attacker>().BeingHit();
-        }
-        else if (GetComponent<Defender>())
-        {
-            GetComponent<Defender>().BeingHit();
-        }
-
         if (health <= 0)
         {
-            if (GetComponent<Attacker>())
-            {
-                GetComponent<Attacker>().IsDead();
-            }
-            else if (GetComponent<Defender>())
-            {
-                GetComponent<Defender>().IsDead();
-            }
+            PlayDeadAnimation();
+        }
+        else
+        {
+            PlayHitAnimation();
         }
     }
 
@@ -57,5 +45,31 @@ public class Health : MonoBehaviour
     public void DestroySelfCollider()
     {
         Destroy(gameObject.GetComponent<Collider2D>());
+    }
+
+    //播放死亡動畫
+    private void PlayDeadAnimation()
+    {
+        if (GetComponent<Attacker>())
+        {
+            GetComponent<Attacker>().IsDead();
+        }
+        else if (GetComponent<Defender>())
+        {
+            GetComponent<Defender>().IsDead();
+        }
+    }
+
+    //播放受擊動畫
+    private void PlayHitAnimation()
+    {
+        if (GetComponent<Attacker>())
+        {
+            GetComponent<Attacker>().BeingHit();
+        }
+        else if (GetComponent<Defender>())
+        {
+            GetComponent<Defender>().BeingHit();
+        }
     }
 }
