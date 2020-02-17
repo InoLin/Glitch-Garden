@@ -18,7 +18,7 @@ public class Fox : MonoBehaviour
         else if (otherObject.GetComponent<Defender>())
         {
             //執行攻擊方法
-            GetComponent<Attacker>().Attack(otherObject);
+            GetComponent<Attacker>().PlayAttackAnimation(otherObject);
         }
     }
 }

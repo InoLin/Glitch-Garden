@@ -149,7 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   credits: {fileID: 3048928986765414360, guid: 14052713cbcd62f4abcdbe176131b763, type: 3}
   gun: {fileID: 3717359631419586485}
-  fireDelayTime: 2
+  fireDelayTime: 10
 --- !u!1 &3717359631419586485
 GameObject:
   m_ObjectHideFlags: 0

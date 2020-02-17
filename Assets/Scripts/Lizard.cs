@@ -16,7 +16,7 @@ public class Lizard : MonoBehaviour
         if (otherCollider.GetComponent<Defender>())
         {
             //A.執行攻擊方法
-            GetComponent<Attacker>().Attack(otherObject);
+            GetComponent<Attacker>().PlayAttackAnimation(otherObject);
         }
 
         //B.如果碰到的是飛行道具

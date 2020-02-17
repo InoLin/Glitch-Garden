@@ -16,23 +16,6 @@ public class Guardian : MonoBehaviour
         animator = GetComponent<Animator>(); //D.獲取Animator的Component
     }
 
-    /*
-    private void Update()
-    {
-        //B.如果攻擊者在通道上
-        if (GetComponent<Defender>().IsAttackerInLane())
-        {
-            //D.播攻擊動畫，IsAttack是在動畫機裡設置的變數，名稱需完全一樣
-            animator.SetBool("isAttacking", true);
-        }
-        else
-        {
-            //D.播等待動畫
-            animator.SetBool("isAttacking", false);
-        }
-    }
-    */
-
     //A.產生拋射物的方法
     public void fire()
     {
@@ -57,24 +40,4 @@ public class Guardian : MonoBehaviour
     {
         Instantiate(guardVFX, transform.position, transform.rotation);
     }
-
-    /*
-    private void OnTriggerEnter2D(Collider2D otherCollider)
-    {
-        //A.將被碰到的gameObject存入
-        GameObject otherObject = otherCollider.gameObject;
-
-        //A.如碰到的是防禦者
-        if (otherCollider.GetComponent<Attacker>())
-        {
-            //A.執行攻擊方法
-            animator.SetBool("isAttacking", true);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D otherCollider)
-    {
-        animator.SetBool("isAttacking", false);
-    }
-    */
 }

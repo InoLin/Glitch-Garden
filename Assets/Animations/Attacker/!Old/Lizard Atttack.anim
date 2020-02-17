@@ -338,7 +338,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 1.25
-    functionName: StrikeCurrentTarget
+    functionName: AttackCurrentTarget
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 20

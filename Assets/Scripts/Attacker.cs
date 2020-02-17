@@ -56,22 +56,25 @@ public class Attacker : MonoBehaviour
         BackToWalkState();
     }
 
-    
-
     public void SetMovementSpeed(float speed)
     {
         currentSpeed = speed;
     }
 
     //B.播放攻擊動畫的方法
-    public void Attack(GameObject target)
+    public void PlayAttackAnimation(GameObject target)
     {
         animator.SetBool("isAttacking", true);
         currentTarget = target;
     }
 
+    public void StopAttackAnimation()
+    {
+        animator.SetBool("isAttacking", false);
+    }
+
     //C.讓攻擊者能攻擊防禦者並執行扣血工作
-    public void StrikeCurrentTarget(float damage)
+    public void AttackCurrentTarget(float damage)
     {
         if (!currentTarget) { return; } //C.如果沒目標，就繼續
         Health health = currentTarget.GetComponent<Health>(); //C.如果有目標，就尋找看有無Health
@@ -91,10 +94,6 @@ public class Attacker : MonoBehaviour
         }
     }
 
-
-
-
-
     //H.播放受擊動畫的方法
     public void BeingHit()
     {
@@ -106,28 +105,4 @@ public class Attacker : MonoBehaviour
     {
         animator.SetTrigger("isDead");
     }
-
-
-    /*
-    //B.攻擊者碰到防禦者會停止移動並撥放攻擊動作
-    private void OnTriggerEnter2D(Collider2D otherCollider)
-    {
-        //B.將被碰到的gameObject存入
-        GameObject otherObject = otherCollider.gameObject;
-
-        if (otherObject.tag == "Stone") //E.如果標籤為石頭
-        {
-            m_animator.SetTrigger("JumpTrigger"); //E.播放跳躍動畫
-        }
-
-        //B.如碰到的是防禦者
-        else if (otherCollider.GetComponent<Defender>())
-        {
-            //B.執行攻擊方法
-            GetComponent<Attacker>().Attack(otherObject);
-        }
-    }
-    */
-
-
 }
