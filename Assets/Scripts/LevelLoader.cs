@@ -53,14 +53,14 @@ public class LevelLoader : MonoBehaviour
     //D.重啟當前場景
     public void RestartScene()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 0; //F.
         SceneManager.LoadScene(currentSceneIndex);
     }
 
     //E.載入開頭主畫面
     public void LoadMainMenu()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 1; //F.
         SceneManager.LoadScene("Start Screen");
     }
 

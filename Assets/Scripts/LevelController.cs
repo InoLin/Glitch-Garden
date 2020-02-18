@@ -15,9 +15,9 @@ public class LevelController : MonoBehaviour
     public GameObject loseLabel; //D.
     [SerializeField] float waitToLoad = 4f; //C.
 
-
     private void Start()
     {
+        Time.timeScale = 0;
         winLabel.SetActive(false); //C.
         loseLabel.SetActive(false); //D.
     }
