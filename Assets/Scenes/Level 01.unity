@@ -2606,11 +2606,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 4875657391062566238, guid: d445d6743c3af8b4da6f9137d255dc8c,
-        type: 3}
-      propertyPath: m_PlaneDistance
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 6716104767106126901, guid: d445d6743c3af8b4da6f9137d255dc8c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2621,25 +2616,5 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1225625128}
-    - target: {fileID: 6716104766199008319, guid: d445d6743c3af8b4da6f9137d255dc8c,
-        type: 3}
-      propertyPath: m_Transition
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716104766199008318, guid: d445d6743c3af8b4da6f9137d255dc8c,
-        type: 3}
-      propertyPath: m_FillCenter
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716104767106126902, guid: d445d6743c3af8b4da6f9137d255dc8c,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716104766199008317, guid: d445d6743c3af8b4da6f9137d255dc8c,
-        type: 3}
-      propertyPath: m_CullTransparentMesh
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d445d6743c3af8b4da6f9137d255dc8c, type: 3}
