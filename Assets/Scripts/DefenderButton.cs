@@ -25,10 +25,10 @@ public class DefenderButton : MonoBehaviour
         var buttons = FindObjectsOfType<DefenderButton>();
         foreach (DefenderButton button in buttons)
         {
-            button.transform.GetChild(1).GetComponent<SpriteRenderer>().color = new Color32(41, 41, 41, 255);
+            button.transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Image>().color = new Color32(41, 41, 41, 255);
         }
 
-        transform.GetChild(1).GetComponent<SpriteRenderer>().color = Color.white;
+        transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Image>().color = Color.white;
         //C.點擊到的圖標，因已把prefab指定好了，所以只要點到就知道要生成哪個prefab
         FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
     }
@@ -36,7 +36,7 @@ public class DefenderButton : MonoBehaviour
     //D.
     private void LabelButtonWithCost()
     {
-        Text costText = this.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.GetComponent<Text>();
+        Text costText = this.transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.GetComponent<Text>();
         if (!costText)
         {
             Debug.LogError(name + "has no cost text, add some!");
