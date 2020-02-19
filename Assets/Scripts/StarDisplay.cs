@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 //A.宣告名為stars的變數，並獲取Star Text物件裡名為Text的組件
 //B.更新stars的方法
@@ -12,11 +13,11 @@ using UnityEngine.UI;
 public class StarDisplay : MonoBehaviour
 {
     [SerializeField] int stars = 100; //A.
-    Text starText; //A.
+    TextMeshPro starText; //A.
 
     void Start()
     {
-        starText = GetComponent<Text>(); //A.獲取名為Text的組件
+        starText = GetComponent<TextMeshPro>(); //A.獲取名為Text的組件
         UpdateDisplay(); //B.執行更新stars的方法
     }
 
