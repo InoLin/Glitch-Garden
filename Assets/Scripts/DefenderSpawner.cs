@@ -24,7 +24,7 @@ public class DefenderSpawner : MonoBehaviour
     private Vector2 theMostLeftDownPos = new Vector2(-5.92f, -2.96f);
     private float perUnitLength = 1.48f;
     public GameObject bornVFX;
-    public DefenderButton defenderButton; //K.
+    [HideInInspector] public DefenderButton defenderButton; //K.
 
 
     private void Start()
@@ -133,6 +133,7 @@ public class DefenderSpawner : MonoBehaviour
             SpawnDefender(gridPos); //G.生成防禦者
             StarDisplay.SpendStars(defenderCost); //G.扣除此防禦者要消耗的星數
             defenderButton.currentSpawnDelayTime = defenderButton.spawnDelayTime; //K.按鈕CD重置
+            defenderButton = null; //K.清空，避免以為當前沒選到防守者而誤點
         }
     }
 

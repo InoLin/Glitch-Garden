@@ -16,8 +16,8 @@ public class DefenderButton : MonoBehaviour
     public Defender defenderPrefab;
     private int currentTotalStarsCount; //E.
     private int spawnDefenderCost; //E.
-    public float spawnDelayTime; //F.
-    public float currentSpawnDelayTime; //F.
+    [HideInInspector]  public float spawnDelayTime; //F.
+    [HideInInspector]  public float currentSpawnDelayTime; //F.
     private Image waitingImage; //F.
 
     private void Start()
@@ -26,7 +26,7 @@ public class DefenderButton : MonoBehaviour
         spawnDefenderCost = defenderPrefab.GetStarCost();
         waitingImage = transform.GetChild(0).gameObject.transform.GetChild(2).GetComponent<Image>();
         spawnDelayTime = defenderPrefab.spawnDelayTime; //F.
-        currentSpawnDelayTime = spawnDelayTime;//F.
+        currentSpawnDelayTime = 0;//F.
     }
 
     private void Update()
@@ -39,7 +39,12 @@ public class DefenderButton : MonoBehaviour
     //A.
     private void OnMouseDown()
     {
-        FindObjectOfType<DefenderSpawner>().defenderButton = this; //F.
+        if (!IsClickable()) { return; }
+        else
+        {
+            FindObjectOfType<DefenderSpawner>().defenderButton = this; //F.
+        }
+
         transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Image>().color = Color.white;
         
         //C.點擊到的圖標，因已把prefab指定好了，所以只要點到就知道要生成哪個prefab
@@ -65,13 +70,25 @@ public class DefenderButton : MonoBehaviour
     {
         currentTotalStarsCount = FindObjectOfType<StarDisplay>().stars;
 
-        if (spawnDefenderCost <= currentTotalStarsCount && currentSpawnDelayTime <= 0)
+        if (IsClickable())
         {
             transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Image>().color = Color.white;
         }
         else
         {
             transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Image>().color = new Color32(100, 100, 100, 255);
+        }
+    }
+
+    private bool IsClickable()
+    {
+        if (spawnDefenderCost <= currentTotalStarsCount && currentSpawnDelayTime <= 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 }
