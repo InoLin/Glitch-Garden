@@ -13,6 +13,8 @@ using UnityEngine;
 //H.如果要放置防禦者的方格內已有防禦者則不能生成新的防禦者
 //I.整理防禦者讓防禦者可生成在parent空物件底下
 //J.生成防禦者出生特效，音效直接綁在Prefab裡面
+//K.防守者被創建後重跑按鈕的CD時間(跟DefenderButton合作完成)
+
 
 public class DefenderSpawner : MonoBehaviour
 {
@@ -22,6 +24,8 @@ public class DefenderSpawner : MonoBehaviour
     private Vector2 theMostLeftDownPos = new Vector2(-5.92f, -2.96f);
     private float perUnitLength = 1.48f;
     public GameObject bornVFX;
+    public DefenderButton defenderButton; //K.
+
 
     private void Start()
     {
@@ -37,7 +41,6 @@ public class DefenderSpawner : MonoBehaviour
     //A.滑鼠點擊方法
     private void OnMouseDown()
     {
-
         //C.把獲取的網格座標傳入，並執行生成防禦者方法
         //SpawnDefender(GetSquareClicked()); //G.因SpawnDefender成為AttemptToPlaceDefenderAt方法的一部分，所以改寫
         AttemptToPlaceDefenderAt(GetSquareClicked()); //G.執行方法
@@ -125,10 +128,11 @@ public class DefenderSpawner : MonoBehaviour
         int defenderCost = defender.GetStarCost();
 
         //G.如有足夠星數
-        if (StarDisplay.HaveEnoughStars(defenderCost))
+        if (StarDisplay.HaveEnoughStars(defenderCost) && defenderButton.currentSpawnDelayTime <= 0)
         {
             SpawnDefender(gridPos); //G.生成防禦者
             StarDisplay.SpendStars(defenderCost); //G.扣除此防禦者要消耗的星數
+            defenderButton.currentSpawnDelayTime = defenderButton.spawnDelayTime; //K.按鈕CD重置
         }
     }
 

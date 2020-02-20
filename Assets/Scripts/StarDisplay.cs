@@ -12,7 +12,7 @@ using TMPro;
 
 public class StarDisplay : MonoBehaviour
 {
-    [SerializeField] int stars = 100; //A.
+    public int stars = 100; //A.
     TextMeshPro starText; //A.
 
     void Start()
@@ -50,5 +50,11 @@ public class StarDisplay : MonoBehaviour
     {
         return stars >= amount;
     }
+    /*
+    public int GetStarsCount()
+    {
+        return stars;
+    }
+    */
 
 }

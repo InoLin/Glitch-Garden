@@ -85,6 +85,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 20
+  spawnDelayTime: 5
 --- !u!61 &3397536980265920849
 BoxCollider2D:
   m_ObjectHideFlags: 0

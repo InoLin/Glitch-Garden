@@ -13,6 +13,7 @@ public class Defender : MonoBehaviour
     [SerializeField] int starCost = 100;
     private Animator animator; //D.宣告m_Animator
     AttackerSpawner myLaneSpawner; //B.
+    public float spawnDelayTime = 5f;
 
     private void Start()
     {

@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 20
+  spawnDelayTime: 5
 --- !u!114 &8052876939536309781
 MonoBehaviour:
   m_ObjectHideFlags: 0
