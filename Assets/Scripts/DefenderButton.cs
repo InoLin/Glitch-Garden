@@ -9,6 +9,7 @@ using UnityEngine.UI;
 //D.按鈕顯示防禦者成本的功能
 //E.如星數不夠則將按鈕變暗
 //F.防守者被創建後重跑按鈕的CD時間(跟DefenderSpawner合作完成)
+//G.點創角按鈕產生一角色圖片跟隨滑鼠的功能
 
 public class DefenderButton : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class DefenderButton : MonoBehaviour
     [HideInInspector]  public float spawnDelayTime; //F.
     [HideInInspector]  public float currentSpawnDelayTime; //F.
     private Image waitingImage; //F.
+    public GameObject defenderCursor; //G.
+    public BattleSceneController battleSceneController;
 
     private void Start()
     {
@@ -34,6 +37,7 @@ public class DefenderButton : MonoBehaviour
         ChangeColor(); //E.
         currentSpawnDelayTime -= Time.deltaTime; //F.
         waitingImage.fillAmount = currentSpawnDelayTime / spawnDelayTime; //F.
+
     }
 
     //A.
@@ -43,6 +47,11 @@ public class DefenderButton : MonoBehaviour
         else
         {
             FindObjectOfType<DefenderSpawner>().defenderButton = this; //F.
+            //battleSceneController.currentDefenderCursor = defenderCursor;
+            GameObject.Find("Char01 Cursor(Clone)").transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().enabled = true;
+
+            GameObject.Find("Char01 Cursor(Clone)").transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite =
+                defenderCursor.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite;
         }
 
         transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Image>().color = Color.white;

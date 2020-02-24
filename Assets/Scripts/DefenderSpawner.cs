@@ -14,6 +14,7 @@ using UnityEngine;
 //I.整理防禦者讓防禦者可生成在parent空物件底下
 //J.生成防禦者出生特效，音效直接綁在Prefab裡面
 //K.防守者被創建後重跑按鈕的CD時間(跟DefenderButton合作完成)
+//L.
 
 
 public class DefenderSpawner : MonoBehaviour
@@ -133,7 +134,9 @@ public class DefenderSpawner : MonoBehaviour
             SpawnDefender(gridPos); //G.生成防禦者
             StarDisplay.SpendStars(defenderCost); //G.扣除此防禦者要消耗的星數
             defenderButton.currentSpawnDelayTime = defenderButton.spawnDelayTime; //K.按鈕CD重置
-            defenderButton = null; //K.清空，避免以為當前沒選到防守者而誤點
+            GameObject.Find("Char01 Cursor(Clone)").transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            //Destroy(defenderButton.defenderCursor.gameObject); //L.
+            //defenderButton = null; //K.清空，避免以為當前沒選到防守者而誤點
         }
     }
 

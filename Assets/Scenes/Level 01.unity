@@ -823,6 +823,51 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac7b483cff6f85849b99ff9ae8174d8c, type: 3}
+--- !u!1 &1043383699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1043383701}
+  - component: {fileID: 1043383700}
+  m_Layer: 0
+  m_Name: Battle Scene Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1043383700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043383699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 728be3b491caa7f45aacb89992789a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentDefenderCursor: {fileID: 6289952095466871178, guid: 15feb3bf6d8bb064e816423bcdb2632d,
+    type: 3}
+--- !u!4 &1043383701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043383699}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1225625127 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3380002655263680167, guid: c9cecb1e2408c9a458a1f6ba9470e3ae,
@@ -1962,6 +2007,50 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 572218517274783297, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: defenderCursor
+      value: 
+      objectReference: {fileID: 6289952095466871178, guid: 15feb3bf6d8bb064e816423bcdb2632d,
+        type: 3}
+    - target: {fileID: 572218517274783297, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: battleSceneController
+      value: 
+      objectReference: {fileID: 1043383700}
+    - target: {fileID: 8138115923656934478, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: defenderCursor
+      value: 
+      objectReference: {fileID: 4390458457303655810, guid: eb1e9879a99ae2f448675efc9871849e,
+        type: 3}
+    - target: {fileID: 8138115923656934478, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: battleSceneController
+      value: 
+      objectReference: {fileID: 1043383700}
+    - target: {fileID: 4306361193376279304, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: defenderCursor
+      value: 
+      objectReference: {fileID: 3054534012602911842, guid: 072b059dbb9e71b498ba9dc82895bd86,
+        type: 3}
+    - target: {fileID: 4306361193376279304, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: battleSceneController
+      value: 
+      objectReference: {fileID: 1043383700}
+    - target: {fileID: 2676101834376272496, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: defenderCursor
+      value: 
+      objectReference: {fileID: 7560707979338540983, guid: 571f2a03fdc13fc418bf40a70097e65b,
+        type: 3}
+    - target: {fileID: 2676101834376272496, guid: 5426690f0d601484fa19459af68a20e5,
+        type: 3}
+      propertyPath: battleSceneController
+      value: 
+      objectReference: {fileID: 1043383700}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5426690f0d601484fa19459af68a20e5, type: 3}
 --- !u!1001 &1459107383103855079
