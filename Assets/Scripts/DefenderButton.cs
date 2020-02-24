@@ -10,6 +10,7 @@ using UnityEngine.UI;
 //E.如星數不夠則將按鈕變暗
 //F.防守者被創建後重跑按鈕的CD時間(跟DefenderSpawner合作完成)
 //G.點創角按鈕產生一角色圖片跟隨滑鼠的功能
+//H.將指定的cursor圖案給BattleSceneController的子物件Cursor並顯示
 
 public class DefenderButton : MonoBehaviour
 {
@@ -47,11 +48,7 @@ public class DefenderButton : MonoBehaviour
         else
         {
             FindObjectOfType<DefenderSpawner>().defenderButton = this; //F.
-            //battleSceneController.currentDefenderCursor = defenderCursor;
-            GameObject.Find("Char01 Cursor(Clone)").transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().enabled = true;
-
-            GameObject.Find("Char01 Cursor(Clone)").transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite =
-                defenderCursor.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite;
+            ShowSpecificCursor(); //H.
         }
 
         transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Image>().color = Color.white;
@@ -99,5 +96,15 @@ public class DefenderButton : MonoBehaviour
         {
             return false;
         }
+    }
+
+    //H.
+    private void ShowSpecificCursor()
+    {
+        //將按鈕的defenderCursor的sprite傳給實際的sprite
+        battleSceneController.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite =
+            defenderCursor.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite;
+        //開啟實際的sprite
+        battleSceneController.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().enabled = true;
     }
 }
