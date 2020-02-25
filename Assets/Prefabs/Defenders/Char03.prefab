@@ -194,8 +194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21ea7e1e45532eb47b72b46f31d4ca8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 30
-  spawnDelayTime: 5
+  starCost: 150
+  spawnDelayTime: 12
 --- !u!61 &6537607479404070295
 BoxCollider2D:
   m_ObjectHideFlags: 0

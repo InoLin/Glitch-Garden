@@ -120,8 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21ea7e1e45532eb47b72b46f31d4ca8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 20
-  spawnDelayTime: 5
+  starCost: 50
+  spawnDelayTime: 8
 --- !u!114 &8052876939536309781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   credits: {fileID: 3048928986765414360, guid: 14052713cbcd62f4abcdbe176131b763, type: 3}
   gun: {fileID: 3717359631419586485}
-  fireDelayTime: 10
+  fireDelayTime: 20
 --- !u!1 &3717359631419586485
 GameObject:
   m_ObjectHideFlags: 0

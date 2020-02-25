@@ -9,6 +9,7 @@ using TMPro;
 //C.增加星數方法
 //D.減少星數方法
 //E.判斷星數是否足夠方法
+//F.
 
 public class StarDisplay : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class StarDisplay : MonoBehaviour
     {
         starText = GetComponent<TextMeshPro>(); //A.獲取名為Text的組件
         UpdateDisplay(); //B.執行更新stars的方法
+        StartCoroutine(AutoAddStars()); //F.
     }
 
     //B.更新stars的方法
@@ -50,6 +52,17 @@ public class StarDisplay : MonoBehaviour
     {
         return stars >= amount;
     }
+
+    //F.
+    IEnumerator AutoAddStars()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(6);
+            AddStars(25);
+        }
+    }
+
     /*
     public int GetStarsCount()
     {

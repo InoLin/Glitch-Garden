@@ -37,25 +37,13 @@ public class LevelController : MonoBehaviour
             StartCoroutine(HandleWinCondition()); //C.
         }
     }
-
+    
     //B.關卡結束，並執行停止生成攻擊者的方法
     public void LevelTimerFinished()
     {
         levelTimerFinished = true;
-        StopSpawners();
-        //Debug.Log("關卡結束");
     }
-
-    //B.停止生成攻擊者的方法
-    private void StopSpawners()
-    {
-        AttackerSpawner[] spawnerArray = FindObjectsOfType<AttackerSpawner>();
-        foreach (AttackerSpawner spawner in spawnerArray)
-        {
-            spawner.StopSpawning();
-        }
-    }
-
+    
     //C.
     IEnumerator HandleWinCondition()
     {
