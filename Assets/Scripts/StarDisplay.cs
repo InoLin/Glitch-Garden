@@ -9,7 +9,7 @@ using TMPro;
 //C.增加星數方法
 //D.減少星數方法
 //E.判斷星數是否足夠方法
-//F.
+//F.環境自動給予星星功能
 
 public class StarDisplay : MonoBehaviour
 {
@@ -58,7 +58,7 @@ public class StarDisplay : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(6);
+            yield return new WaitForSeconds(9);
             AddStars(25);
         }
     }

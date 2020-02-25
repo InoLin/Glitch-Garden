@@ -71,7 +71,7 @@ MonoBehaviour:
   projectile: {fileID: 161406579046967977, guid: cd9539d220d1f5343a276bce9805b301,
     type: 3}
   gun: {fileID: 3543553424480982583}
-  fireDelayTime: 1
+  fireDelayTime: 1.5
 --- !u!114 &1637717955447884053
 MonoBehaviour:
   m_ObjectHideFlags: 0

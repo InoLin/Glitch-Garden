@@ -26,13 +26,15 @@ public class LevelController : MonoBehaviour
     public void AttackerSpawned()
     {
         numberOfAttackers++;
+        Debug.Log(numberOfAttackers);
     }
 
     //A.減少攻擊者計數器的方法，判斷數量小於0且關卡結束
     public void AttackerKilled()
     {
         numberOfAttackers--;
-        if(numberOfAttackers <= 0 && levelTimerFinished)
+        Debug.Log(numberOfAttackers);
+        if (numberOfAttackers <= 0 && levelTimerFinished)
         {
             StartCoroutine(HandleWinCondition()); //C.
         }
@@ -43,7 +45,7 @@ public class LevelController : MonoBehaviour
     {
         levelTimerFinished = true;
     }
-    
+
     //C.
     IEnumerator HandleWinCondition()
     {
