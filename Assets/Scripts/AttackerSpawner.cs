@@ -16,7 +16,14 @@ public class AttackerSpawner : MonoBehaviour
     {
         for(int i=0; i< attackerPrefabArray.Length; i++)
         {
-            yield return new WaitForSeconds(setCountBackward[i]); //等待時間
+            if(i == 0)
+            {
+                yield return new WaitForSeconds(setCountBackward[i]); //等待時間
+            }
+            else
+            {
+                yield return new WaitForSeconds(setCountBackward[i] - setCountBackward[i-1]); //等待時間
+            }
             Spawn(attackerPrefabArray[i]); //C.執行用亂數產生攻擊者的方法
         }
     }

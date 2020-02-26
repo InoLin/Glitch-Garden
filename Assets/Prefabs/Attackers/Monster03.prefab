@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 1270573011171577535}
   - component: {fileID: 1089572294206882046}
   - component: {fileID: 3905188759810938272}
+  - component: {fileID: 6842714221812728686}
   - component: {fileID: 1270573011171574082}
   - component: {fileID: 3111814928680015033}
-  - component: {fileID: 6842714221812728686}
-  - component: {fileID: 4637836349961284479}
+  - component: {fileID: 8490721825785274330}
   m_Layer: 0
   m_Name: Monster03
   m_TagString: Attacker
@@ -104,33 +104,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1270573011171574082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1270573011171577534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26965d76a7b593d4fbe808b407153e1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentSpeed: 0
---- !u!114 &3111814928680015033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1270573011171577534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c3dc2f84ce9d8e4eb1559e39d53026e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 6
-  levelController: {fileID: 0}
 --- !u!212 &6842714221812728686
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -179,7 +152,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4637836349961284479
+--- !u!114 &1270573011171574082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,7 +161,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 1270573011171577534}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa5a39cf2ee0db945a72756cb909fd9b, type: 3}
+  m_Script: {fileID: 11500000, guid: 26965d76a7b593d4fbe808b407153e1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSpeed: 0
+--- !u!114 &3111814928680015033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270573011171577534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c3dc2f84ce9d8e4eb1559e39d53026e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 4
+  levelController: {fileID: 0}
+--- !u!114 &8490721825785274330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270573011171577534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53cc524f993004b4784221891579928e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1517296010881843054

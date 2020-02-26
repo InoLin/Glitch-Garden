@@ -33,7 +33,6 @@ public class LevelController : MonoBehaviour
     public void AttackerKilled()
     {
         numberOfAttackers--;
-        Debug.Log(numberOfAttackers);
         if (numberOfAttackers <= 0 && levelTimerFinished)
         {
             StartCoroutine(HandleWinCondition()); //C.
