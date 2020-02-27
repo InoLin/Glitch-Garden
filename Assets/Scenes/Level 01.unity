@@ -2902,19 +2902,48 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 4218891180370958829, guid: 09e6009345635cc42a5f79bf97536138,
+    - target: {fileID: 6520056913038440676, guid: 09e6009345635cc42a5f79bf97536138,
         type: 3}
-      propertyPath: m_PlaneDistance
-      value: 20
+      propertyPath: m_AnchoredPosition.y
+      value: 1140
       objectReference: {fileID: 0}
-    - target: {fileID: 1663842584, guid: 09e6009345635cc42a5f79bf97536138, type: 3}
-      propertyPath: levelTime
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8257250033071768330, guid: 09e6009345635cc42a5f79bf97536138,
+    - target: {fileID: 7129203635097069414, guid: 09e6009345635cc42a5f79bf97536138,
         type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 751
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2091569752, guid: 09e6009345635cc42a5f79bf97536138, type: 3}
+      propertyPath: m_Name
+      value: Main Menu Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 2091569755, guid: 09e6009345635cc42a5f79bf97536138, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300292, guid: ddf78ebd939ad7b419fb536c455cfb2e,
+        type: 3}
+    - target: {fileID: 2091569755, guid: 09e6009345635cc42a5f79bf97536138, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2091569754, guid: 09e6009345635cc42a5f79bf97536138, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1225625128}
+    - target: {fileID: 2091569754, guid: 09e6009345635cc42a5f79bf97536138, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2091569754, guid: 09e6009345635cc42a5f79bf97536138, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2091569754, guid: 09e6009345635cc42a5f79bf97536138, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2091569754, guid: 09e6009345635cc42a5f79bf97536138, type: 3}
+      propertyPath: m_Transition
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e6009345635cc42a5f79bf97536138, type: 3}
