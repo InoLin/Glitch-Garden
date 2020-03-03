@@ -11,14 +11,14 @@ using UnityEngine.UI;
 public class LivesDisplay : MonoBehaviour
 {
     //SerializeField] int lives = 5; //D.去掉此行
-    [SerializeField] float baseLives = 3; //D.
+    //[SerializeField] float baseLives = 3; //D.
     [SerializeField] private int damage = 1;
     float lives; //D.
     public Text livesText;
 
     private void Start()
     {
-        lives = baseLives - PlayerPrefsController.GetDifficulty(); //D.
+        //lives = baseLives - PlayerPrefsController.GetDifficulty(); //D.
         livesText = GetComponent<Text>();
         UpdateLives();
         //Debug.Log("Difficulty setting currently is " + PlayerPrefsController.GetDifficulty()); //D.

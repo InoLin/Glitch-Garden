@@ -11,6 +11,7 @@ using UnityEngine.UI;
 //F.防守者被創建後重跑按鈕的CD時間(跟DefenderSpawner合作完成)
 //G.點創角按鈕產生一角色圖片跟隨滑鼠的功能
 //H.將指定的cursor圖案給BattleSceneController的子物件Cursor並顯示
+//I.如滑鼠上已有cursor圖案跟隨，點CD未完成的按鈕可以取消cursor圖案
 
 public class DefenderButton : MonoBehaviour
 {
@@ -44,7 +45,10 @@ public class DefenderButton : MonoBehaviour
     //A.
     private void OnMouseDown()
     {
-        if (!IsClickable()) { return; }
+        if (!IsClickable()) //I.
+        {
+            HideSpecificCursor(); //I.
+        }
         else
         {
             FindObjectOfType<DefenderSpawner>().defenderButton = this; //F.
@@ -106,5 +110,11 @@ public class DefenderButton : MonoBehaviour
             defenderCursor.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite;
         //開啟實際的sprite
         battleSceneController.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().enabled = true;
+    }
+
+    //I.
+    private void HideSpecificCursor()
+    {
+        battleSceneController.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
 }

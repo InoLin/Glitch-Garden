@@ -14,7 +14,7 @@ public class MusicPlayer : MonoBehaviour
     {
         DontDestroyOnLoad(this); //B.
         audioSource = GetComponent<AudioSource>(); //A.
-        audioSource.volume = PlayerPrefsController.GetMasterVolume(); //A.
+        //audioSource.volume = PlayerPrefsController.GetMasterVolume(); //A.
     }
 
     //A.給輸入值來控制audioSource的volume的方法

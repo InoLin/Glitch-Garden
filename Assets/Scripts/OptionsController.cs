@@ -47,8 +47,8 @@ public class OptionsController : MonoBehaviour
 
         InitiateResolutions(); //H.
 
-        volumeSlider.value = PlayerPrefsController.GetMasterVolume(); //A
-        difficultySlider.value = PlayerPrefsController.GetDifficulty(); //D.
+        //volumeSlider.value = PlayerPrefsController.GetMasterVolume(); //A
+        //difficultySlider.value = PlayerPrefsController.GetDifficulty(); //D.
     }
 
     void Update()
@@ -71,8 +71,8 @@ public class OptionsController : MonoBehaviour
     //B.
     public void SaveAndExit()
     {
-        PlayerPrefsController.SetMasterVolume(volumeSlider.value);
-        PlayerPrefsController.SetDifficulty(difficultySlider.value); //D.
+        //PlayerPrefsController.SetMasterVolume(volumeSlider.value);
+        //PlayerPrefsController.SetDifficulty(difficultySlider.value); //D.
         FindObjectOfType<LevelLoader>().LoadMainMenu();
     }
 
