@@ -8,6 +8,7 @@ using UnityEngine;
 
 public class PlayerPrefsController : MonoBehaviour
 {
+    
     const string MASTER_VOLUME_KEY = "master volume";
     const string DIFFICULTY_KEY = "difficuty";
 
@@ -22,7 +23,6 @@ public class PlayerPrefsController : MonoBehaviour
     {
         if(volume >= MIN_VOLUME && volume <= MAX_VOLUME)
         {
-            Debug.Log("Master volume set to " + volume);
             PlayerPrefs.SetFloat(MASTER_VOLUME_KEY, volume);
         }
         else
@@ -55,4 +55,5 @@ public class PlayerPrefsController : MonoBehaviour
     {
         return PlayerPrefs.GetFloat(DIFFICULTY_KEY);
     }
+    
 }
