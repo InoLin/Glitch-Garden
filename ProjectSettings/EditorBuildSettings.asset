@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Screen.unity
     guid: 65167c2892452444b9de4a70e308567d
   - enabled: 1
+    path: Assets/Scenes/Talk Screen 01.unity
+    guid: 042cd0b39095e7442ab1d0537287591f
+  - enabled: 1
+    path: Assets/Scenes/Loading Screen.unity
+    guid: 717385e5f7fcb764b8e6c1467270f89b
+  - enabled: 1
     path: Assets/Scenes/Level 01.unity
     guid: 45994a8ba623e7a4ab7179b5c8ae7d7c
   - enabled: 1
@@ -17,7 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lose Screen.unity
     guid: dd42db71742b3ae41a93c93ca015b629
-  - enabled: 1
-    path: Assets/Scenes/Splash Screen.unity
-    guid: 717385e5f7fcb764b8e6c1467270f89b
   m_configObjects: {}
