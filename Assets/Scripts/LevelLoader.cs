@@ -44,6 +44,11 @@ public class LevelLoader : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
+    public void LoadFirstScene()
+    {
+        SceneManager.LoadScene("Level 01");
+    }
+
     //C.載入失敗場景的方法
     public void LoadYouLose()
     {
@@ -74,5 +79,10 @@ public class LevelLoader : MonoBehaviour
     public void LoadOptionsScreen()
     {
         SceneManager.LoadScene("Options Screen");
+    }
+
+    public void LoadTalkScene()
+    {
+        SceneManager.LoadScene("Talk Screen 01");
     }
 }

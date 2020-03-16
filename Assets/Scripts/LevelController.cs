@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 //A.攻擊者計數器
 //B.將關卡結束並停止生成攻擊者
@@ -51,7 +52,14 @@ public class LevelController : MonoBehaviour
         GetComponent<AudioSource>().Play();
         FindObjectOfType<SoundLoader>().turnDownVolume();
         yield return new WaitForSeconds(waitToLoad);
-        //FindObjectOfType<LevelLoader>().LoadNextScene();
+        if(SceneManager.GetActiveScene().name == "Level 03")
+        {
+            FindObjectOfType<LevelLoader>().LoadFirstScene();
+        }
+        else
+        {
+            FindObjectOfType<LevelLoader>().LoadNextScene();
+        }
     }
 
     //D.
