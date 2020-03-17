@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 //B.將關卡結束並停止生成攻擊者
 //C.勝利文字
 //D.顯示失敗文字，並將遊戲執行速度設為0
+//E.解鎖關卡按鈕的方法
+//F.如當前為Scene03則載入Scene01的方法
+//G.避免將以解鎖關卡又鎖起的方法
 
 public class LevelController : MonoBehaviour
 {
@@ -15,12 +18,15 @@ public class LevelController : MonoBehaviour
     public GameObject winLabel; //C.
     public GameObject loseLabel; //D.
     [SerializeField] float waitToLoad = 4f; //C.
+    public LevelSelectController levelSelectController;
+    private int currentLevelNumber;
 
     private void Start()
     {
         Time.timeScale = 0;
         winLabel.SetActive(false); //C.
         loseLabel.SetActive(false); //D.
+        currentLevelNumber = SceneManager.GetActiveScene().buildIndex - 5;
     }
 
     //A.增加攻擊者計數器的方法
@@ -52,7 +58,9 @@ public class LevelController : MonoBehaviour
         GetComponent<AudioSource>().Play();
         FindObjectOfType<SoundLoader>().turnDownVolume();
         yield return new WaitForSeconds(waitToLoad);
-        if(SceneManager.GetActiveScene().name == "Level 03")
+
+        //F.
+        if (SceneManager.GetActiveScene().name == "Level 03")
         {
             FindObjectOfType<LevelLoader>().LoadFirstScene();
         }
@@ -60,6 +68,22 @@ public class LevelController : MonoBehaviour
         {
             FindObjectOfType<LevelLoader>().LoadNextScene();
         }
+
+        //G.
+        if (levelSelectController.GetLevelPassedInt() >= 2)
+        {
+            
+        }
+        else
+        {
+            UnlockLevel(currentLevelNumber);
+        }
+    }
+
+    //E.
+    public void UnlockLevel(int levelNumber)
+    {
+        levelSelectController.SetLevelPassedInt(levelNumber);
     }
 
     //D.

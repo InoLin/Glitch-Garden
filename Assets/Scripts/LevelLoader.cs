@@ -49,6 +49,16 @@ public class LevelLoader : MonoBehaviour
         SceneManager.LoadScene("Level 01");
     }
 
+    public void LoadSecondScene()
+    {
+        SceneManager.LoadScene("Level 02");
+    }
+
+    public void LoadThirdScene()
+    {
+        SceneManager.LoadScene("Level 03");
+    }
+
     //C.載入失敗場景的方法
     public void LoadYouLose()
     {
@@ -60,6 +70,11 @@ public class LevelLoader : MonoBehaviour
     {
         Time.timeScale = 0; //F.
         SceneManager.LoadScene(currentSceneIndex);
+    }
+
+    public void LoadLevelSelect()
+    {
+        SceneManager.LoadScene("Level Select Screen");
     }
 
     //E.載入開頭主畫面

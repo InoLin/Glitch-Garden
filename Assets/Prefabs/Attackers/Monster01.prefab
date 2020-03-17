@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c3dc2f84ce9d8e4eb1559e39d53026e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 1
   levelController: {fileID: 0}
 --- !u!212 &526163574996496442
 SpriteRenderer:

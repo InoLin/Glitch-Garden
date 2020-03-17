@@ -472,7 +472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonAudio: {fileID: 7375487431918575522}
-  hoverSound: {fileID: 8300000, guid: 69a262c595321424cba0809dad43e5a8, type: 3}
+  hoverSound: {fileID: 8300000, guid: c9de889bd318fca46a21e13092a39a37, type: 3}
   clickSound: {fileID: 8300000, guid: c5593b84a6f12f64e944df53b0b298ae, type: 3}
 --- !u!114 &7375487431918575532
 MonoBehaviour:
