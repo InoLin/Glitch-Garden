@@ -19,6 +19,7 @@ public class LevelSelectController : MonoBehaviour
     public Button levelButton03;
     public int levelPassed; //A.過了幾關，原本為0
     const string LEVEL_PASSED_KEY = "levelPassed"; //A.存放levelPassed的PlayerPrefs
+    public ButtonFuncionChanger01 buttonFunctionchanger01;
 
     void Start()
     {
@@ -66,6 +67,7 @@ public class LevelSelectController : MonoBehaviour
         levelButton02.GetComponent<AudioSource>().enabled = false;
         levelButton03.GetComponent<AudioSource>().enabled = false;
         PlayerPrefs.DeleteKey(LEVEL_PASSED_KEY);
+        buttonFunctionchanger01.SetFirstTimePlayKeyTrue();
     }
 
     public int GetLevelPassedInt()
@@ -76,5 +78,19 @@ public class LevelSelectController : MonoBehaviour
     public void SetLevelPassedInt(int volume)
     {
         PlayerPrefs.SetInt(LEVEL_PASSED_KEY, volume);
+    }
+
+    //I.
+    int boolToInt(bool val)
+    {
+        if (val) return 1;
+        else return 0;
+    }
+
+    //J.
+    bool intToBool(int val)
+    {
+        if (val != 0) return true;
+        else return false;
     }
 }
