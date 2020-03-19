@@ -48,17 +48,19 @@ public class DefenderButton : MonoBehaviour
         if (!IsClickable()) //I.
         {
             HideSpecificCursor(); //I.
+            FindObjectOfType<DefenderSpawner>().SetDefenderNull();
         }
         else
         {
             FindObjectOfType<DefenderSpawner>().defenderButton = this; //F.
             ShowSpecificCursor(); //H.
+            //FindObjectOfType<DefenderSpawner>().SetDefenderNull();
+            FindObjectOfType<DefenderRemoverButton>().SetIsRemoverOnFalse();
+            //C.點擊到的圖標，因已把prefab指定好了，所以只要點到就知道要生成哪個prefab
+            FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
         }
 
         transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Image>().color = Color.white;
-        
-        //C.點擊到的圖標，因已把prefab指定好了，所以只要點到就知道要生成哪個prefab
-        FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
     }
 
     //D.

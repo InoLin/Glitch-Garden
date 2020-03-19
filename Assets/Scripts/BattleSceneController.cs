@@ -23,7 +23,7 @@ public class BattleSceneController : MonoBehaviour
     }
 
     //G.
-    private void GiveMousePosToDefenderCursor()
+    public void GiveMousePosToDefenderCursor()
     {
         //把滑鼠座標轉螢幕座標並賦予defenderCursor，Z不給大於0的話，圖片會無法顯示
         //x的+20跟y的+70是位置微調，這樣比較好看

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1441673318664693911}
   - component: {fileID: 8052876939536309781}
   - component: {fileID: 6634681485667963250}
+  - component: {fileID: 6457112190729902666}
   m_Layer: 0
   m_Name: Char04
   m_TagString: Untagged
@@ -151,6 +152,19 @@ MonoBehaviour:
   credits: {fileID: 3048928986765414360, guid: 14052713cbcd62f4abcdbe176131b763, type: 3}
   gun: {fileID: 3717359631419586485}
   fireDelayTime: 20
+--- !u!114 &6457112190729902666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776392145341023002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc211e9a9f3cd1a4dba61891162c6dce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitVFX: {fileID: 5991140271730628179, guid: 674f755081f543846adcd27b88ea7711, type: 3}
 --- !u!1 &3717359631419586485
 GameObject:
   m_ObjectHideFlags: 0

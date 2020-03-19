@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 6537607479404070295}
   - component: {fileID: 4336962613035752130}
   - component: {fileID: 1794222272354194257}
+  - component: {fileID: 2762284249100508981}
   m_Layer: 0
   m_Name: Char03
   m_TagString: Untagged
@@ -262,3 +263,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 5
   levelController: {fileID: 0}
+--- !u!114 &2762284249100508981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8034642123085287006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc211e9a9f3cd1a4dba61891162c6dce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitVFX: {fileID: 5991140271730628179, guid: 674f755081f543846adcd27b88ea7711, type: 3}

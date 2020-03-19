@@ -19,7 +19,7 @@ using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour
 {
-    Defender defender; //A.存放防禦者 //E.將GameObject型態改成Defender，並去除SerializeField
+    public Defender defender; //A.存放防禦者 //E.將GameObject型態改成Defender，並去除SerializeField
     GameObject defenderParent; //I.
     const string DEFENDER_RARENT_NAME = "Defenders"; //I.應該是避免打錯用的
     private Vector2 theMostLeftDownPos = new Vector2(-5.92f, -2.96f);
@@ -136,6 +136,7 @@ public class DefenderSpawner : MonoBehaviour
             defenderButton.currentSpawnDelayTime = defenderButton.spawnDelayTime; //K.按鈕CD重置
             FindObjectOfType<BattleSceneController>().gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false; //L.
         }
+        SetDefenderNull();
     }
 
     //I.生成DefenderParent的方法
@@ -148,5 +149,8 @@ public class DefenderSpawner : MonoBehaviour
         }
     }
 
-    
+    public void SetDefenderNull()
+    {
+        defender = null;
+    }
 }

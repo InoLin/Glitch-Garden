@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 4044733931031796990}
   - component: {fileID: 2083037108196332909}
   - component: {fileID: 4026433047680634447}
+  - component: {fileID: 6582514302425809568}
   m_Layer: 0
   m_Name: Char02
   m_TagString: Untagged
@@ -263,3 +264,16 @@ MonoBehaviour:
   gun: {fileID: 4665528261330402509}
   guardVFX: {fileID: 5991140271730628179, guid: a58ca0a5caa82904e82a93acb0c10ec6,
     type: 3}
+--- !u!114 &6582514302425809568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7750410052784638050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc211e9a9f3cd1a4dba61891162c6dce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitVFX: {fileID: 5991140271730628179, guid: 674f755081f543846adcd27b88ea7711, type: 3}
