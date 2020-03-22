@@ -105,4 +105,9 @@ public class Attacker : MonoBehaviour
     {
         animator.SetTrigger("isDead");
     }
+
+    public void IsWalking()
+    {
+        animator.SetTrigger("isWalking");
+    }
 }

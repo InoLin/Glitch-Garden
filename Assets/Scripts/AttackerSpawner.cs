@@ -33,5 +33,9 @@ public class AttackerSpawner : MonoBehaviour
     {
         Attacker newAttacker = Instantiate(myAttacker, transform.position, transform.rotation) as Attacker;
         newAttacker.transform.parent = transform;
+        if (myAttacker.GetComponent<SelfBGM>())
+        {
+            FindObjectOfType<SoundLoader>().ChangeBGM(myAttacker.GetComponent<SelfBGM>().BGM);
+        }
     }
 }
